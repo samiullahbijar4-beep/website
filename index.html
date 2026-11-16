@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>panjlingu — Digital Dictionary</title>
+  <!-- Google Fonts for Premium Look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">L</span> panjlingu<span class="brand-dot">.</span>
+  </a>
+  <nav>
+    <a class="active" href="index.html">Home</a>
+    <a href="search.html">Dictionary</a>
+    <a href="about.html">About</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+  <a class="nav-admin" href="admin/login.html">Admin</a>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">✦ WORDS CONNECT WORLDS</span>
+      <h1>One word.<br><em>Five languages.</em></h1>
+      <p>Explore refined meanings and instant translations across five languages in one sleek, distraction-free dictionary.</p>
+      
+      <!-- Direct Quick Search Bar on Home (Optional shortcut to Search Page) -->
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="search.html">Explore dictionary <span>→</span></a>
+      </div>
+
+      <div class="hero-meta">
+        <span>✦ Instant search</span>
+        <span>✦ Curated database</span>
+        <span>✦ Five languages</span>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="glow-bg"></div>
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="language-card card-a"><b>HELLO</b><small>English</small></div>
+      <div class="language-card card-b"><b>سلام</b><small>Urdu</small></div>
+      <div class="language-card card-c"><b>Hola</b><small>Spanish</small></div>
+      <div class="language-card card-d"><b>नमस्ते</b><small>Hindi</small></div>
+      <div class="center-globe">文</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">START EXPLORING</span>
+        <h2>Discover a world of words</h2>
+      </div>
+      <a class="text-link" href="search.html">Open dictionary →</a>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature-card">
+        <div class="feature-icon">⌕</div>
+        <h3>Precision Search</h3>
+        <p>Type any word to reveal its exact meaning and multi-language translations without clutter.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon">文</div>
+        <h3>Five Languages</h3>
+        <p>Seamlessly bridge vocabulary across English, Urdu, Spanish, Hindi, and more.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon">♡</div>
+        <h3>Community Driven</h3>
+        <p>Suggest new words or submit refinements directly to our editorial team.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="cta-content">
+      <span class="eyebrow">HAVE A WORD IN MIND?</span>
+      <h2>Start your language journey.</h2>
+    </div>
+    <a class="btn btn-light" href="search.html">Search words →</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> panjlingu Digital Dictionary</span>
+  <span>Crafted for curious minds.</span>
+</footer>
+
+<script src="js/firebase-config.js"></script>
+<script src="js/dictionary.js"></script>
+</body>
+</html>
